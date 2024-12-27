@@ -5,7 +5,7 @@ import PricingList from "./PricingList";
 import { LeftLine, RightLine } from "./design/Pricing";
 const Pricing = () => {
   return (
-    <Section>
+    <Section id="pricing">
       <div className=" container relative">
         <div className="relative  hidden justify-center mb-[5rem] overflow-hidden lg:flex">
           <div className=" z-1 w-[6rem] h-auto mx-auto pb-52">
